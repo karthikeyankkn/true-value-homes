@@ -1,0 +1,15 @@
+.tvh-logo{
+	width: 100px;
+    height: unset !important;
+    background: #fff !important;
+    padding: 10px;
+}
+.tvh-make-life-easy i{
+	font-size: 60px;
+    color: #0c072e;
+}
+.tvh-make-life-easy p{
+	color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
