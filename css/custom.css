@@ -13,3 +13,17 @@
     font-size: 16px;
     margin-top: 10px;
 }
+.p-align{
+
+}
+.p-align p{
+	margin: 20px 0;
+	color: #fff;
+}
+p{
+	text-align: justify;
+	line-height: 30px;
+}
+.m-tb-30{
+	margin: 30px 0;
+}

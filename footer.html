@@ -117,3 +117,12 @@ Copyright &copy;<script>2019</script> - True Value Homes. All rights reserved.| 
 	});
 
 	</script>
+	<!-- banner only for index -->
+	<script type="text/javascript">
+		var current_url = location.pathname
+		if (current_url == "/" || current_url == "/index.html") {
+			$(".heroCarousel").show();
+		}else{
+			$(".heroCarousel").hide();
+		}
+	</script>

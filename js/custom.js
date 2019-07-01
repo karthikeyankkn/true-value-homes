@@ -1,6 +1,6 @@
 $(document).ready(function(){
+// debugger
 	$(function(){
-		debugger
 	  $("nav").load("header.html"); 
 	  $("footer").load("footer.html"); 
 	});
