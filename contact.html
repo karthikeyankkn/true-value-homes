@@ -15,66 +15,13 @@
 	<link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
 
-  <!-- ================Offcanvus Menu Area =================-->
-	<div class="side_menu">
-			<ul class="list menu_right">
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="about.html">About</a>
-				</li>
-				<li>
-					<a href="projects.html">Projects</a>
-				</li>
-				<li>
-					<a href="service.html">Service</a>
-				</li>
-				<li>
-					<a href="#">Pages</a>
-					<ul class="list">
-						<li>
-							<a href="elements.html">Elements</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#">Blog</a>
-					<ul class="list">
-						<li>
-							<a href="blog.html">Blog</a>
-						</li>
-						<li>
-							<a href="single-blog.html">Blog Details</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
-			</ul>
-	</div>
-	<!--================End Offcanvus Menu Area =================-->
-
-	<!--================Canvus Menu Area =================-->
-	<div class="canvus_menu">
-		<div class="container">
-			<div class="float-right">
-				<div class="toggle_icon" title="Menu Bar">
-					<span></span>
-				</div>
-			</div>
-		</div>
-	</div>
-  <!--================End Canvus Menu Area =================-->
+ <nav></nav>
   
   <header class="hero-banner project-bg">
-    <a class="navbar-brand" href="index.html">
-			<img src="img/logo.png" alt="">
-		</a>
     <div class="container">
       <h2 class="section-intro__subtitle">Contact Us</h2>
       <div class="btn-group breadcrumb">
@@ -87,78 +34,127 @@
 
   <section class="section-margin">
     <div class="container">
-      <!-- google map start -->
-      <div class="d-none d-sm-block mb-5 pb-4">
-        <div id="map" style="height: 420px;"></div>
-        <script>
-          function initMap() {
-            var uluru = {lat: -25.363, lng: 131.044};
-            var grayStyles = [
-              {
-                featureType: "all",
-                stylers: [
-                  { saturation: -90 },
-                  { lightness: 50 }
-                ]
-              },
-              {elementType: 'labels.text.fill', stylers: [{color: '#A3A3A3'}]}
-            ];
-            var map = new google.maps.Map(document.getElementById('map'), {
-              center: {lat: -31.197, lng: 150.744},
-              zoom: 9,
-              styles: grayStyles,
-              scrollwheel:  false
-            });
-          }
-          
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap"></script>
-        
+    	<h2>CORPORATE OFFICE</h2>
+     	<div class="row m-tb-30">
+        <div class="col-md-8">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31445.55341248215!2d80.22758792687004!3d13.1453411204174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267df28d5df79%3A0xb2609df7145f351a!2sTVH!5e0!3m2!1sen!2sin!4v1558977513197!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+        </div>
+        <div class="col-lg-4">
+          <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-home"></i></span>
+            <div class="media-body">
+              <h3><a href="">No 16/17, 3rd Cross Street, R.A. Puram, Chennai.</a></h3>
+              <p>Tamil Nadu, India - 600 028</p>
+            </div>
+          </div>
+          <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+            <div class="media-body">
+              <h3><a href="tel:04424640099">044 2464 0099</a></h3>
+              <p>Mon to Fri 9.30am to 6pm</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- google map end -->
 
+      <h2>SALES OFFICE - CHENNAI</h2>
+      <div class="row m-tb-30">
+          <div class="col-md-8">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.7656212170214!2d80.25421959738597!3d12.997993740176518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267f31702d05b%3A0x74c9a67c46fbc8c0!2s55%2C+LB+Rd%2C+Indira+Nagar%2C+Adyar%2C+Chennai%2C+Tamil+Nadu+600020!5e0!3m2!1sen!2sin!4v1558979087469!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+          </div>
+          <div class="col-lg-4">
+            <div class="media contact-info">
+              <span class="contact-info__icon"><i class="ti-home"></i></span>
+              <div class="media-body">
+                <h3><a href="">55 LB Road, Adyar, Chennai.</a></h3>
+                <p>Tamil Nadu, India - 600 020</p>
+              </div>
+            </div>
+            <div class="media contact-info">
+              <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+              <div class="media-body">
+                <h3><a href="tel:04471227122">044 7122 7122</a> / <a href="tel:+919176955000">+91 91769 55000</a></h3>
+                <p>Mon to Fri 9.30am to 6pm</p>
+              </div>
+            </div>
+            <div class="media contact-info">
+              <span class="contact-info__icon"><i class="ti-email"></i></span>
+              <div class="media-body">
+                <h3><a href="mailto:sales@tvh.in">sales@tvh.in</a></h3>
+                <p>Send us your query anytime!</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <div class="row align-items-center">
-        <div class="col-md-4 col-lg-3 mb-4 mb-md-0">
+      <h2>SALES OFFICE - COIMBATORE</h2>
+      <div class="row m-tb-30">
+        <div class="col-md-8">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5757475943915!2d77.0119560144583!3d10.995360892173188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85760398dd269%3A0x506bac48788c1388!2sTVH+Vista+Heights!5e0!3m2!1sen!2sin!4v1558979453230!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+        </div>
+        <div class="col-lg-4">
           <div class="media contact-info">
-            <span class="contact-info__icon"><i class="lnr lnr-home"></i></span>
+            <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
-              <h3>California United States</h3>
-              <p>Santa monica bullevard</p>
+              <h3><a href="">TVH Aurora Township, 1126 – Trichy Road, Singanallur Post.</a></h3>
+              <p>Coimbatore – 641 005.</p>
             </div>
           </div>
           <div class="media contact-info">
-            <span class="contact-info__icon"><i class="lnr lnr-phone-handset"></i></span>
+            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
             <div class="media-body">
-              <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
-              <p>Mon to Fri 9am to 6pm</p>
+              <h3><a href="tel:+914224346666">+91 422 434 6666</a> / <a href="tel:+914246565">+91 424 6565</a></h3>
+              <!-- <p>Mon to Fri 9.30am to 6pm</p> -->
             </div>
           </div>
           <div class="media contact-info">
-            <span class="contact-info__icon"><i class="lnr lnr-envelope"></i></span>
+            <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
-              <h3><a href="mailto:support@colorlib.com">support@colorlib.com</a></h3>
+              <h3><a href="mailto:sales@tvh.in">sales@tvh.in</a></h3>
               <p>Send us your query anytime!</p>
             </div>
           </div>
         </div>
-        <div class="col-md-8 col-lg-9">
+      </div>
+       <!-- contact us form -->
+       <h2>REACH US</h2>
+      <div class="row align-items-center">
+        <div class="col-md-12 col-lg-12">
           <form action="#/" class="form-contact">
             <div class="row">
-              <div class="col-lg-5">
+              <div class="col-lg-6">
                 <div class="form-group">
                   <input class="form-control" name="name" type="text" placeholder="Enter your name" required>
                 </div>
                 <div class="form-group">
                   <input class="form-control" name="email" type="email" placeholder="Enter email address" required>
                 </div>
+              </div>
+              <div class="col-lg-6">
+              	<div class="form-group">
+                  <input class="form-control" name="phone_number" type="text" placeholder="Enter phone number">
+                </div>
                 <div class="form-group">
-                  <input class="form-control" name="subject" type="text" placeholder="Enter Subject">
+                	<select data-required="true" name="convenient_time_to_call">
+                    <option value="" selected="" disabled="">Convenient Time To Call You:</option>
+                    <option value="8am to 9am">8am To 9am</option>
+                    <option value="9am to 10am">9am To 10am</option>
+                    <option value="10am to 11am">10am To 11am</option>
+                    <option value="11am to 12pm">11am To 12pm</option>
+                    <option value="12pm to 1pm">12pm To 1pm</option>
+                    <option value="1pm to 2pm">1pm To 2pm</option>
+                    <option value="2pm to 3pm">2pm To 3pm</option>
+                    <option value="3pm to 4pm">3pm To 4pm</option>
+                    <option value="4pm to 5pm">4pm To 5pm</option>
+                    <option value="5pm to 6pm">5pm To 6pm</option>
+                    <option value="6pm to 7pm">6pm To 7pm</option>
+                    <option value="7pm to 8pm">7pm To 8pm</option>
+                  </select>
                 </div>
               </div>
-              <div class="col-lg-7">
+              <div class="col-lg-12">
                 <div class="form-group">
-                    <textarea class="form-control different-control w-100" name="textarea" id="textarea" cols="30" rows="6" placeholder="Enter Message"></textarea>
+                    <textarea class="form-control different-control w-100" name="message" id="textarea" cols="30" rows="6" placeholder="Enter Message"></textarea>
                 </div>
               </div>
             </div>
@@ -173,69 +169,7 @@
   
 
 	<footer class="footer footer-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4 col-lg-2 mb-4 mb-lg-0 text-center text-sm-left">
-					<h3 class="footer__title">Top Products</h3>
-					<ul class="footer__link">
-						<li><a href="#/">managed Website</a></li>
-						<li><a href="#/">Manage Reputation</a></li>
-						<li><a href="#/">power Tools</a></li>
-						<li><a href="#/">Marketing Service</a></li>
-					</ul>
-				</div>
-				<div class="col-sm-4 col-lg-2 mb-4 mb-lg-0 text-center text-sm-left">
-					<h3 class="footer__title">Quick Links</h3>
-					<ul class="footer__link">
-						<li><a href="#/">Jobs</a></li>
-						<li><a href="#/">Brand Assets</a></li>
-						<li><a href="#/">Investor Relations</a></li>
-						<li><a href="#/">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-sm-4 col-lg-2 mb-4 mb-lg-0 text-center text-sm-left">
-					<h3 class="footer__title">Features</h3>
-					<ul class="footer__link">
-						<li><a href="#/">Jobs</a></li>
-						<li><a href="#/">Brand Assets</a></li>
-						<li><a href="#/">Investor Relations</a></li>
-						<li><a href="#/">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-sm-4 col-lg-2 mb-4 mb-lg-0 text-center text-sm-left">
-					<h3 class="footer__title">Resources</h3>
-					<ul class="footer__link">
-						<li><a href="#/">Guides</a></li>
-						<li><a href="#/">Research</a></li>
-						<li><a href="#/">Experts</a></li>
-						<li><a href="#/">Agencies</a></li>
-					</ul>
-				</div>
-				<div class="col-sm-8 col-lg-4 mb-4 mb-lg-0 text-center text-sm-left">
-					<h3 class="footer__title">Newsletter</h3>
-					<p>You can trust us. we only send promo offers,</p>
-					<form action="" class="form-subscribe">
-						<div class="input-group">
-							<input type="email" class="form-control" placeholder="Your email address" required>
-							<div class="input-group-append">
-								<button class="btn-append" type="submit"><i class="lnr lnr-arrow-right"></i></button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-			<div class="d-sm-flex justify-content-between footer__bottom top-border">
-				<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-				<ul class="social-icons mt-2 mt-sm-0">
-					<li><a href="#/"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a href="#/"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#/"><i class="fab fa-dribbble"></i></a></li>
-					<li><a href="#/"><i class="fab fa-behance"></i></a></li>					
-				</ul>
-			</div>
-		</div>
+		
 	</footer>
 
 
@@ -243,18 +177,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>	
 	<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
-  
-  <script>
-    var dropToggle = $('.menu_right > li').has('ul').children('a');
-        dropToggle.on('click', function() {
-          dropToggle.not(this).closest('li').find('ul').slideUp(200);
-          $(this).closest('li').children('ul').slideToggle(200);
-          return false;
-        });
-
-        $( ".toggle_icon" ).on('click', function() {
-          $( 'body' ).toggleClass( "open" );
-        });
-  </script>
+  <script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>
