@@ -30,6 +30,9 @@ p{
 .mt-30{
 	margin-top: 30px;
 }
+.mb-30{
+  margin-bottom: 30px;
+}
 .mt-20{
 	margin-top: 20px;
 }
@@ -43,4 +46,14 @@ select{
   color: #8f8f8f;
   width: 100%;
   outline: none;
+}
+.completed-projects-details{
+  padding: 10px;
+  border: 2px solid;
+  text-align: center;
+  border-top: 0;
+  margin-bottom: 30px;
+}
+.completed-projects-details label{
+  display: block;
 }
