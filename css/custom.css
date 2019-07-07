@@ -100,4 +100,8 @@ select{
     top: unset;
     border-radius: 0;
   }
+  .footer__bottom{
+    margin-bottom: 50px;
+    text-align: center;
+  }
 }
