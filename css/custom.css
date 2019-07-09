@@ -87,7 +87,7 @@ select{
   width: 100%;
 }
 .hero__slideContent{
-  left: 60%;
+  left: 57%;
   bottom: 40px;
 }
 .tvh-make-life-easy i{
@@ -107,5 +107,9 @@ select{
   .footer__bottom{
     margin-bottom: 50px;
     text-align: center;
+  }
+  .hero__slideContent{
+    left: 50%;
+    /*bottom: 125px;*/
   }
 }
