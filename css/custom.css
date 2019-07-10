@@ -88,7 +88,7 @@ select{
 }
 .hero__slideContent{
   left: 57%;
-  bottom: 40px;
+  bottom: 100px;
 }
 .tvh-make-life-easy i{
   color: #fff;
@@ -110,6 +110,6 @@ select{
   }
   .hero__slideContent{
     left: 50%;
-    /*bottom: 125px;*/
+    bottom: 60px;
   }
 }
