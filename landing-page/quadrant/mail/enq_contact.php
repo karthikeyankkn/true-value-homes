@@ -26,7 +26,9 @@ $uname = $_POST['uname'];
 			$message .= "<br/>";
 			$message .= "Looking for:&nbsp;".$file;
 			$message .= "<br/>";
-			$message .= "</body></html>";
+			$message .= "<script src="http://cwc.livserv.in/chat.js?lid=16321" id="lp_cwc_xqzyihjdskw" ></script>
+<script src="http://cw1.livserv.in?did=16321&amp;pid=1"></script>
+</body></html>";
 
 			
 	mail($to, $subject, $message, $headers);
