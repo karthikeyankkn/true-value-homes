@@ -57,3 +57,47 @@ select{
 .completed-projects-details label{
   display: block;
 }
+.contact-info-container{
+  max-width: 320px;
+  background: #fff;
+  padding: 10px;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+}
+.contact-info-container span{
+
+}
+.contact-info-container span i{
+  color: #970e76;
+  font-size: 24px;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+.contact-info-container span a{
+
+}
+.hero__slide img{
+  height: 700px;
+  width: 100%;
+}
+.tvh-make-life-easy i{
+  color: #fff;
+}
+.canvus_menu .toggle_icon span, .canvus_menu .toggle_icon span::before, .canvus_menu .toggle_icon span::after{
+  background: #fff;
+}
+/* style for mobile */
+@media only screen and (max-width: 600px) {
+  .contact-info-container{
+    bottom: 0;
+    width: 100%;
+    top: unset;
+    border-radius: 0;
+  }
+}
