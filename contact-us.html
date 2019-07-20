@@ -120,7 +120,7 @@
        <h2>REACH US</h2>
       <div class="row align-items-center">
         <div class="col-md-12 col-lg-12">
-          <form action="#/" class="form-contact">
+          <form class="form-contact" method="POST" action="https://formspree.io/kknmalar2@gmail.com">
             <div class="row">
               <div class="col-lg-6">
                 <div class="form-group">
@@ -132,7 +132,7 @@
               </div>
               <div class="col-lg-6">
               	<div class="form-group">
-                  <input class="form-control" name="phone_number" type="text" placeholder="Enter phone number">
+                  <input class="form-control" name="phone_number" type="number" placeholder="Enter phone number">
                 </div>
                 <div class="form-group">
                 	<select data-required="true" name="convenient_time_to_call">
@@ -158,6 +158,13 @@
                 </div>
               </div>
             </div>
+
+            <!-- hidden fields starts -->
+            <input type="hidden" name="_next" value="/tvh-thankyou.html">
+            <input type="hidden" name="_cc" value="anand@tvh.in"> 
+            <input type="hidden" name="_subject" value="Tvh-Contact-Form">
+            <!-- hidden fields ends -->
+
             <div class="form-group text-center text-md-right">
               <button type="submit" class="btn active btn--leftBorder">Send Message</button>
             </div>

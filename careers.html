@@ -42,7 +42,7 @@
           <p>Here at TVH your career opportunities are boundless so why wait, send your CV</p>
         </div>
         <div class="col-md-6 col-lg-6">
-          <form action="#/" class="form-contact">
+          <form class="form-contact" method="POST" action="https://formspree.io/kknmalar2@gmail.com">
             <div class="row">
               <div class="col-lg-6">
                 <div class="form-group">
@@ -54,7 +54,7 @@
               </div>
               <div class="col-lg-6">
                 <div class="form-group">
-                  <input class="form-control" name="phone_number" type="text" placeholder="Enter phone number">
+                  <input class="form-control" name="phone_number" type="number" placeholder="Enter phone number">
                 </div>
                 <div class="form-group">
                   <input type="file" name="resume">
@@ -66,6 +66,11 @@
                 </div>
               </div>
             </div>
+            <!-- hidden fields starts -->
+            <input type="hidden" name="_next" value="/tvh-thankyou.html">
+            <input type="hidden" name="_cc" value="anand@tvh.in"> 
+            <input type="hidden" name="_subject" value="Tvh-Careers-Form">
+            <!-- hidden fields ends -->
             <div class="form-group text-center text-md-right">
               <button type="submit" class="btn active btn--leftBorder">Submit</button>
             </div>
