@@ -49,7 +49,7 @@
       <div class="container">
         <h1 class="masthead-heading mb-0">Beliciaa Towers</h1>
         <!-- <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2> -->
-        <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+        <a href="#address" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
       </div>
     </div>
     <!-- <div class="bg-circle-1 bg-circle"></div>
@@ -60,7 +60,7 @@
 
   <section>
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row align-items-center" id="address">
         <div class="col-lg-6 order-lg-2">
           <div class="p-5">
             <img class="img-fluid" src="../../img/custom/beliciaa-towers-1.jpg" alt="">
@@ -108,6 +108,40 @@
             <h2 class="display-4">Aminities</h2>
             <p>All the more, the property’s location makes it an ideal one. The sea front that can be easily viewed and enjoyed. Beliciaa Towers can be easily accessed from any part of the city since the bus station and train station are within 1000m radius. The airport is located within 15 kilometers from the property.</p>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact form -->
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-3"></div>
+        <div class="col-lg-6">
+          <h2 class="display-4 text-center">Contact Us</h2>
+          <form class="form-contact" method="POST" action="https://formspree.io/kknmalar2@gmail.com">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="Enter Name" required>
+            </div>
+            <div class="form-group">
+              <input type="number" name="phone_number" class="form-control" placeholder="Enter Phone number" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" placeholder="Enter Email address">
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Enter Query" name="query" class="form-control" rows="5"></textarea>
+            </div>
+            <!-- hidden fields starts -->
+            <input type="hidden" name="_next" value="/tvh-thankyou.html">
+            <input type="hidden" name="_cc" value="anand@tvh.in"> 
+            <input type="hidden" name="_subject" value="Tvh-Beliciaa-Towers-Form">
+            <!-- hidden fields ends -->
+            <div class="form-group">
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
