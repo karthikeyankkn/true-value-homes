@@ -102,6 +102,9 @@ select{
 .livprop_popup{
   bottom: 75px;
 }
+.hero__slideContent_mobile{
+  display: none;
+}
 /*style for safari and crome*/
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     .canvus_menu
@@ -131,5 +134,22 @@ select{
   }
   .footer__bottom{
     margin-bottom: 80px;
+  }
+  .hero__slide img{
+    height: 350px;
+  }
+  .hero__slideContent{
+    display: none;
+  }
+  .hero__slideContent_mobile{
+    display: block;
+    background: #000000ad;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    color: #fff;
+  }
+  .hero__slideContent_mobile h1{
+
   }
 }
