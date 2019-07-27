@@ -1,0 +1,18 @@
+sudo mkdir -p ~spiniadmin/.ssh
+touch $HOME/.ssh/authorized_keys
+sudo sh -c "cat $HOME/.ssh/authorized_keys >> ~spiniadmin/.ssh/authorized_keys"
+sudo chown -R spiniadmin: ~spiniadmin/.ssh
+sudo chmod 700 ~spiniadmin/.ssh
+sudo sh -c "chmod 600 ~spiniadmin/.ssh/*"
+
+
+sudo mkdir -p /var/www/myapp
+
+sudo chown spiniadmin: /var/www/myapp
+
+sudo -u spiniadmin -H git clone https://connecttokkn@bitbucket.org/spinicode/marketing-tool.git code
+
+sudo -u myappuser -H git clone git@bitbucket.org:spinicode/marketing-tool.git code
+
+
+sudo -u spiniadmin -H bash -l
