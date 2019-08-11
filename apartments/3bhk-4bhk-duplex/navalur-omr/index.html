@@ -1,364 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme The Band</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <style>
-  body {
-    font: 400 15px/1.8 Lato, sans-serif;
-    color: #777;
-  }
-  h3, h4 {
-    margin: 10px 0 30px 0;
-    letter-spacing: 10px;      
-    font-size: 20px;
-    color: #111;
-  }
-  .container {
-    padding: 80px 120px;
-  }
-  .person {
-    border: 10px solid transparent;
-    margin-bottom: 25px;
-    width: 80%;
-    height: 80%;
-    opacity: 0.7;
-  }
-  .person:hover {
-    border-color: #f1f1f1;
-  }
-  .carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */ 
-    width: 100%; /* Set width to 100% */
-    margin: auto;
-  }
-  .carousel-caption h3 {
-    color: #fff !important;
-  }
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-  }
-  .bg-1 {
-    background: #2d2d30;
-    color: #bdbdbd;
-  }
-  .bg-1 h3 {color: #fff;}
-  .bg-1 p {font-style: italic;}
-  .list-group-item:first-child {
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-  }
-  .list-group-item:last-child {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  .thumbnail {
-    /*padding: 0 0 15px 0;*/
-    border: none;
-    border-radius: 0;
-  }
-  .thumbnail a img{
-    height: 300px;
-  }
-  .thumbnail p {
-    margin-top: 15px;
-    color: #555;
-  }
-  .btn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #f1f1f1;
-    border-radius: 0;
-    transition: .2s;
-  }
-  .btn:hover, .btn:focus {
-    border: 1px solid #333;
-    background-color: #fff;
-    color: #000;
-  }
-  .modal-header, h4, .close {
-    background-color: #333;
-    color: #fff !important;
-    text-align: center;
-    font-size: 30px;
-  }
-  .modal-header, .modal-body {
-    padding: 40px 50px;
-  }
-  .nav-tabs li a {
-    color: #777;
-  }
-  #googleMap {
-    width: 100%;
-    height: 400px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-  }  
-  .navbar {
-    font-family: Montserrat, sans-serif;
-    margin-bottom: 0;
-    background-color: #2d2d30;
-    border: 0;
-    font-size: 11px !important;
-    letter-spacing: 4px;
-    opacity: 0.9;
-  }
-  .navbar li a, .navbar .navbar-brand { 
-    color: #d5d5d5 !important;
-  }
-  .navbar-nav li a:hover {
-    color: #fff !important;
-  }
-  .navbar-nav li.active a {
-    color: #fff !important;
-    background-color: #29292c !important;
-  }
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-  }
-  .open .dropdown-toggle {
-    color: #fff;
-    background-color: #555 !important;
-  }
-  .dropdown-menu li a {
-    color: #000 !important;
-  }
-  .dropdown-menu li a:hover {
-    background-color: red !important;
-  }
-  footer {
-    background-color: #2d2d30;
-    color: #f5f5f5;
-    padding: 32px;
-  }
-  footer a {
-    color: #f5f5f5;
-  }
-  footer a:hover {
-    color: #777;
-    text-decoration: none;
-  }  
-  .form-control {
-    border-radius: 0;
-  }
-  textarea {
-    resize: none;
-  }
-  ul li i{
-    padding-right: 15px;
-  }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>TVH - Apartments and Row Houses in Chennai &amp; Coimbatore.</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,500" rel="stylesheet">
+	<base href="/" target="_blank">
+	<link rel="icon" href="img/tvh_images/favicon.ico" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="vendor/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link rel="stylesheet" href="vendor/owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 807492093;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/807492093/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+  
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+ <style type="text/css">
+ 	h2,h3{
+ 		color: #950e75;
+ 		padding: 15px 0px;
+ 	}
+ 	.thumbnail a img {
+    height: 300px;
+    width: 100%;
+}
+ </style>
+<body>
+	<!-- header seciton starts -->
+	<nav>
+				<!-- contact info starts -->
+		<div class="contact-info-container">
+			<span>
+				<a href="tel:04471227122"><i class="fas fa-phone-volume"></i>044 7122 7122</a>
+			</span>
+			<span>
+				<a href="https://api.whatsapp.com/send?phone=919884551321"><i class="fab fa-whatsapp"></i>+919884551321</a>
+			</span>
+		</div>
+		<!-- contact info ends -->
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#myPage">TVH TAUS</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
-        <li><a href="#project-overview">PROJECT OVERVIEW</a></li>
-        <li><a href="#gallery">GALLERY</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+		<!-- ================Offcanvus Menu Area =================-->
+			<div class="side_menu">
+					<ul class="list menu_right">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="about.html">About Us</a>
+						</li>
+						<li>
+							<a href="">Residential</a>
+							<ul class="list">
+								<li><a href="#">Chennai</a>
+									<ul class="sub-list">
+										<li><a class="dropdown-item" href="/apartments/luxury-3bhk-4bhk/adyar-chennai">Tvh Quadrant</a></li>
+										<li><a href="#"><a class="dropdown-item" href="/plots-for-sale/mannivakkam-chennai">Tvh Titanium City</a></a></li>
+										<li><a class="dropdown-item" href="/apartments/2bhk-3bhk-ready-to-move/padur-omr">Tvh Ouranya Bay</a></li>
+										<li><a class="dropdown-item" href="/apartments/3bhk-4bhk-duplex/navalur-omr">Tvh Taus</a></li>
+										<li><a class="dropdown-item" href="landing-page/tvh-lumbini-square/">Tvh Lumbini Square</a></li>
+										<li><a class="dropdown-item" href="landing-page/crossway/">Tvh Crossway</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Coimbatore</a>
+									<ul class="sub-list">
+										<li><a class="dropdown-item" href="/apartments/3bhk-4bhk/coimbatore">Tvh Vista Heights</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Commercial</a>
+							<ul class="list">
+								<li>
+									<a href="/landing-page/agnitiopark/">Tvh Agnitiopark</a>
+								</li>
+								<li>
+									<a href="/landing-page/beliciaa-towers/">Beliciaa Towers</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="/contact-us.html">Contact US</a>
+						</li>
+						<li>
+							<a href="/careers.html">Careers</a>
+						</li>
+					</ul>
+			</div>
+			<!--================End Offcanvus Menu Area =================-->
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="../../../img/custom/tvh-taus-1.jpg" alt="New York" width="1200" height="600">
-        <div class="carousel-caption">
-          <!-- <h3>New York</h3> -->
-          <!-- <p>The atmosphere in New York is lorem ipsum.</p> -->
-        </div>      
-      </div>
+			<!--================Canvus Menu Area =================-->
+			<div class="canvus_menu">
+				<div class="container">
+					<div class="float-right">
+						<div class="toggle_icon" title="Menu Bar">
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--================End Canvus Menu Area =================-->
+		  <header>
+		    <div class="hero">
+		      <a class="navbar-brand" href="/">
+		        <img src="img/custom/tvh_fav_icon_logo.png" alt="tvh-logo" class="tvh-logo">
+		      </a>
+		      
+		      <div class="owl-carousel owl-theme heroCarousel">
+		        
+		        <div class="item">
+		          <div class="hero__slide">
+		            <img src="http://www.tvh.in/img/custom/tvh-taus-1.jpg" alt="TVS Taus" style="width: 100% !important;">
+		            <div class="hero__slideContent text-center">
+		              <h1>TVH Taus</h1>
+		              
+									<a class="btn btn--leftBorder btn--rightBorder" href="apartments/3bhk-4bhk-duplex/navalur-omr/">Details</a>							
+									<span class="hero__slideContent--right"></span>
+		            </div>
 
-      <div class="item">
-        <img src="../../../img/custom/tvh-taus-2.jpg" alt="Chicago" width="1200" height="600">
-        <div class="carousel-caption">
-          <!-- <h3>Chicago</h3> -->
-          <!-- <p>Thank you, Chicago - A night we won't forget.</p> -->
-        </div>      
-      </div>
-    
-      <div class="item">
-        <img src="../../../img/custom/tvh-taus-3.jpg" alt="Los Angeles" width="1200" height="600">
-        <div class="carousel-caption">
-          <!-- <h3>LA</h3> -->
-          <!-- <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p> -->
-        </div>      
-      </div>
-    </div>
+		            <!-- mobile view code -->
+		            <div class="hero__slideContent_mobile">
+		            	<h1>TVH Taus</h1>
+		            </div>
+		          </div>
+		        </div>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-</div>
+		        <div class="item">
+		          <div class="hero__slide">
+		            <img src="http://www.tvh.in/img/custom/tvh-taus-2.jpg" alt="TVS Taus" style="width: 100% !important;">
+		            <div class="hero__slideContent text-center">
+		              <h1>TVH Taus</h1>
+		              
+									<a class="btn btn--leftBorder btn--rightBorder" href="apartments/3bhk-4bhk-duplex/navalur-omr/">Details</a>							
+									<span class="hero__slideContent--right"></span>
+		            </div>
 
-<!-- Container (The Band Section) -->
-<div id="project-overview" class="container">
-  <div class="row">
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Project overview</h3>
-        <p><em>You get to live clean and so does our planet</em></p>
-        <p>It’s about time we woke up to the concept of green living. TVH being a real estate pioneer has introduced TVH Taus on OMR in Chennai. From wide open spaces filled with greenery to planet-conscious materials, everything that goes into Taus home is eco-friendly and also holds the promise of giving you and your family the luxury that you deserve.</p>
-      </div>
-      <div class="col-md-6">
-        <h3>Amenities</h3>
-        <ul style="list-style: none; padding: 0">
-          <li><i class="glyphicon glyphicon-tree-deciduous"></i>  Open air theatre</li>
-          <li><i class="glyphicon glyphicon-tree-deciduous"></i>  State of the art gym</li>
-          <li><i class="glyphicon glyphicon-tree-deciduous"></i>  100% rain water harvesting</li>
-          <li><i class="glyphicon glyphicon-tree-deciduous"></i>  Terrace garden</li>
-          <li><i class="glyphicon glyphicon-tree-deciduous"></i>  Swimming pool</li>
-          <li><i class="glyphicon glyphicon-tree-deciduous"></i>  Fitness centre</li>
-          <li><i class="glyphicon glyphicon-tree-deciduous"></i>  Badminton court</li>
-        </ul>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Specifications</h3>
-        <ul style="list-style: none; padding: 0">
-          <li>
-            <div class="col-md-6">Size</div><div class="col-md-6">517 – 3,800 sq. ft</div>
-          </li>
-          <li>
-            <div class="col-md-6">Apartments</div><div class="col-md-6">403 apartments, 3 apartments per floor with no common walls</div>
-          </li>
-          <li>
-            <div class="col-md-6">Foundation</div><div class="col-md-6">Constructed on 25% of overall area with 75% green space</div>
-          </li>
-          <li>
-            <div class="col-md-6">Environment</div><div class="col-md-6">Large Green courtyard</div>
-          </li>
-          <li>
-            <div class="col-md-6">Location</div><div class="col-md-6">Before Siruseri IT Park</div>
-          </li>
-          <li>
-            <div class="col-md-6">Quality</div><div class="col-md-6">IGBC Green Home Standard Compliant</div>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <h3>Location</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.072818236181!2d80.22374191489078!3d12.838570990943222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525a5bd2b4103b%3A0xdceddd285a9f1593!2sTVH+Taus!5e0!3m2!1sen!2sin!4v1556965747366!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-      </div>
-    </div>
-  </div> 
-</div>
+		            <!-- mobile view code -->
+		            <div class="hero__slideContent_mobile">
+		            	<h1>TVH Taus</h1>
+		            </div>
+		          </div>
+		        </div>
 
-<!-- Container (gallery Section) -->
-<div id="gallery" class="bg-1 row">
-  <div class="container">
-    <h2 class="text-center">Gallery</h2>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="../../../img/custom/tvh-taus-status-image-3.png">
-          <img src="../../../img/custom/tvh-taus-status-image-3.png" alt="tvh-taus-status" style="width:100%">
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="../../../img/custom/tvh-taus-status-image-1.png">
-          <img src="../../../img/custom/tvh-taus-status-image-1.png" alt="tvh-taus-status" style="width:100%">
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="../../../img/custom/tvh-taus-status-image-2.jpg">
-          <img src="../../../img/custom/tvh-taus-status-image-2.jpg" alt="tvh-taus-status" style="width:100%">
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="../../../img/custom/tvh-taus-status-image-1.jpg">
-          <img src="../../../img/custom/tvh-taus-status-image-1.jpg" alt="tvh-taus-status" style="width:100%">
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="../../../img/custom/tvh-taus-status-image-5.jpg">
-          <img src="../../../img/custom/tvh-taus-status-image-5.jpg" alt="tvh-taus-status" style="width:100%">
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="../../../img/custom/tvh-taus-status-image-3.jpg">
-          <img src="../../../img/custom/tvh-taus-status-image-3.jpg" alt="tvh-taus-status" style="width:100%">
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="../../../img/custom/tvh-taus-status-image-4.jpg">
-          <img src="../../../img/custom/tvh-taus-status-image-4.jpg" alt="tvh-taus-status" style="width:100%">
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="../../../img/custom/tvh-taus-status-image-6.jpg">
-          <img src="../../../img/custom/tvh-taus-status-image-6.jpg" alt="tvh-taus-status" style="width:100%">
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="../../../img/custom/tvh-taus-status-image-1.jpg">
-          <img src="../../../img/custom/tvh-taus-status-image-1.jpg" alt="tvh-taus-status" style="width:100%">
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+		        <div class="item">
+		          <div class="hero__slide">
+		            <img src="http://www.tvh.in/img/custom/tvh-taus-3.jpg" alt="TVS Taus" style="width: 100% !important;">
+		            <div class="hero__slideContent text-center">
+		              <h1>TVH Taus</h1>
+		              
+									<a class="btn btn--leftBorder btn--rightBorder" href="apartments/3bhk-4bhk-duplex/navalur-omr/">Details</a>							
+									<span class="hero__slideContent--right"></span>
+		            </div>
 
-<!-- Container (Contact Section) -->
-<div id="contact" class="container">
+		            <!-- mobile view code -->
+		            <div class="hero__slideContent_mobile">
+		            	<h1>TVH Taus</h1>
+		            </div>
+		          </div>
+		        </div>
+		        
+		        
+		      </div>
+		    </div>
+		  </header>
+	</nav>
+	<!-- header section ends -->
+	<br>
+	<br>
+<section>
+	<div class="container ">
+		<div class="row">
+			<div class="col-md-6">
+		        <h3>Project overview</h3>
+		        <p><em>You get to live clean and so does our planet</em></p>
+		        <p>It’s about time we woke up to the concept of green living. TVH being a real estate pioneer has introduced TVH Taus on OMR in Chennai. From wide open spaces filled with greenery to planet-conscious materials, everything that goes into Taus home is eco-friendly and also holds the promise of giving you and your family the luxury that you deserve.</p>
+		      </div>
+		      <div class="col-md-6">
+		        <h3>Amenities</h3>
+		        <ul style="list-style: none; padding: 0">
+		          <li><i class="fas fa-tree"></i>  Open air theatre</li>
+		          <li><i class="fas fa-tree"></i>  State of the art gym</li>
+		          <li><i class="fas fa-tree"></i>  100% rain water harvesting</li>
+		          <li><i class="fas fa-tree"></i>  Terrace garden</li>
+		          <li><i class="fas fa-tree"></i>  Swimming pool</li>
+		          <li><i class="fas fa-tree"></i>  Fitness centre</li>
+		          <li><i class="fas fa-tree"></i>  Badminton court</li>
+		        </ul>
+		      </div>
+		</div>
+	</div>
+</section>
+<hr>
+<section>
+	<div class="container ">
+		<div class="row">
+			<div class="col-md-6">
+		        <h3>Specifications</h3>
+		        <table class="table table-condensed">
+				    <thead>
+				      <tr>
+				        <th>Size : </th>
+				        <th>517 – 3,800 sq. ft</th>
+				        
+				      </tr>
+				    </thead>
+				    <tbody>
+				      <tr>
+				        <td>Apartments : </td>
+				        <td>403 apartments, 3 apartments per floor with no common walls</td>
+				        
+				      </tr>
+				      <tr>
+				        <td>Foundation : </td>
+				        <td>Constructed on 25% of overall area with 75% green space</td>
+				        
+				      </tr>
+				      <tr>
+				        <td>Environment : </td>
+				        <td>Large Green courtyard</td>
+				        
+				      </tr>
+
+				      <tr>
+				      	<td>Location : </td>
+				      	<td>Before Siruseri IT Park</td>
+				      </tr>
+
+				      <tr>
+				      	<td>Quality : </td>
+				      	<td>IGBC Green Home Standard Compliant</td>
+				      </tr>
+				    </tbody>
+				  </table>
+		      </div>
+		      <div class="col-md-6">
+		        <h3>Location</h3>
+		        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.0727373057052!2d80.22374191417792!3d12.838576221258501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525a5bd2b4103b%3A0xdceddd285a9f1593!2sTVH+Taus!5e0!3m2!1sen!2sin!4v1565450149990!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+		      </div>
+		</div>
+	</div>
+</section>
+<br><br><br>
+<section id="gallery" class="bg-1 row">
+	<div class="container">
+		<h2 class="text-center">Gallery</h2>
+		<div class="row">
+			<div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="../../../img/custom/tvh-taus-status-image-3.png">
+		          <img src="../../../img/custom/tvh-taus-status-image-3.png" alt="tvh-taus-status" style="width:100%">
+		        </a>
+		      </div>
+		    </div>
+		    <div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="../../../img/custom/tvh-taus-status-image-1.png">
+		          <img src="../../../img/custom/tvh-taus-status-image-1.png" alt="tvh-taus-status" style="width:100%">
+		        </a>
+		      </div>
+		    </div>
+		    <div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="../../../img/custom/tvh-taus-status-image-2.jpg">
+		          <img src="../../../img/custom/tvh-taus-status-image-2.jpg" alt="tvh-taus-status" style="width:100%">
+		        </a>
+		      </div>
+		    </div>
+		    
+		    
+		</div>
+	</div>
+</section>
+<br>
+<section id="gallery" class="bg-1 row">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="../../../img/custom/tvh-taus-status-image-1.jpg">
+		          <img src="../../../img/custom/tvh-taus-status-image-1.jpg" alt="tvh-taus-status" style="width:100%">
+		        </a>
+		      </div>
+		    </div>
+		    <div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="../../../img/custom/tvh-taus-status-image-5.jpg">
+		          <img src="../../../img/custom/tvh-taus-status-image-5.jpg" alt="tvh-taus-status" style="width:100%">
+		        </a>
+		      </div>
+		    </div>
+		    <div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="../../../img/custom/tvh-taus-status-image-3.jpg">
+		          <img src="../../../img/custom/tvh-taus-status-image-3.jpg" alt="tvh-taus-status" style="width:100%">
+		        </a>
+		      </div>
+		    </div>
+		</div>
+	</div>
+</section>
+<br>
+<section id="gallery" class="bg-1 row">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="../../../img/custom/tvh-taus-status-image-4.jpg">
+		          <img src="../../../img/custom/tvh-taus-status-image-4.jpg" alt="tvh-taus-status" style="width:100%">
+		        </a>
+		      </div>
+		    </div>
+		    <div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="../../../img/custom/tvh-taus-status-image-6.jpg">
+		          <img src="../../../img/custom/tvh-taus-status-image-6.jpg" alt="tvh-taus-status" style="width:100%">
+		        </a>
+		      </div>
+		    </div>
+		    <div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="../../../img/custom/tvh-taus-status-image-1.jpg">
+		          <img src="../../../img/custom/tvh-taus-status-image-1.jpg" alt="tvh-taus-status" style="width:100%">
+		        </a>
+		      </div>
+		    </div>
+		</div>
+	</div>
+</section>
+<br>
+
+<section>
+	<div id="contact" class="container">
   <h3 class="text-center">Contact</h3>
   <div class="row">
     <div class="col-md-12">
-      <form method="POST" action="https://formspree.io/kknmalar2@gmail.com">
+      <form method="POST" action="https://formspree.io/joshuasimon94@gmail.com">
         <div class="row">
           <div class="col-sm-6 form-group">
             <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
@@ -388,7 +389,8 @@
           </div>
         </div>
         <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-        <input type="hidden" name="_next" value="/contact-us/"> <input type="hidden" name="_cc" value="anand@tvh.in"> <input type="hidden" name="_subject" value="TVH-taus-form">
+        <input type="hidden" name="_next" value="/contact-us/"> <input type="hidden" name="_cc" value="anand@tvh.in"> 
+        <input type="hidden" name="_subject" value="TVH-taus-form">
         <br>
         <div class="row">
           <div class="col-md-12 form-group text-center">
@@ -399,47 +401,165 @@
     </div>
   </div>
 </div>
-  
-<!-- Footer -->
-<footer class="text-center">
-  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a><br><br>
-  <p>© 2019 - True Value Homes. All rights reserved.</p> 
-</footer>
+</section>
+	<!-- footer section starts -->
+	<footer class="footer footer-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5 col-lg-3 mb-4 mb-lg-0 text-left">
+					<h3 class="footer__title">Registered Office</h3>
+					<ul class="footer__link">
+						<li>
+							<p>Address : TVH - Triveni, No: 21, C V Raman Raod, Alwarpet, Chennai - 600018.</p>
+						</li>
+						<li>Phone : <a href="tel:04424640022">044 2464 0022</a></li>
+					</ul>
+					<h3 class="footer__title mt-20">Certificates</h3>
+					<ul class="footer__link">
+						<li>
+							<a href="index.html" class="footer_logo"> <img src="img/custom/credai.png" alt="credai"></a><br>
+							<a href="index.html" class="footer_logo"> <img src="img/custom/bai.png" alt="bai"> </a>
+							<a href="index.html" class="footer_logo"> <img src="img/custom/igbc.png" alt="igbc"> </a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-5 col-lg-3 mb-4 mb-lg-0 text-left">
+					<h3 class="footer__title">Get In Touch – Chennai</h3>
+					<ul class="footer__link">
+						<li>
+							<p>Address : TVH Novella, No: 16/17, 3rd Cross Street, R.A.Puram, Chennai India- 600028.</p>
+						</li>
+						<li>
+							Phone : <a href="tel:04471227122">044 7122 7122</a>
+						</li>
+					</ul>
+					<h3 class="footer__title mt-20">Coimbatore</h3>
+					<ul class="footer__link">
+						<li>
+							<p>Address : TVH Aurora, 1126 - Trichy Road, Singanallur Post, Coimbatore, India - 641005.</p>
+						</li>
+						<li>
+							Phone : <a href="tel:+914224246565">+91 422 424 6565</a><br>
+						</li>
+						<li>
+							Mobile : <a href="tel:+919884122227">+91 98841 22227</a>
+						</li>
+						<li>Email : <a href="mailto:cmbsales@tvh.in" style="text-transform: lowercase;">cmbsales@tvh.in</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-4 col-lg-2 mb-4 mb-lg-0 text-left">
+					<h3 class="footer__title">Important Links</h3>
+					<ul class="footer__link">
+             <li><a href="https://tvhcare.freshdesk.com/support/login">My TVH</a></li>
+             <li><a href="/completed-projects.html">Completed Projects</a></li>
+             <li><a href="http://www.tvh.in/category/tvh-blog/">Blog</a></li>
+             <li><a href="/gallery.html">Gallery</a></li>
+             <li><a href="/media.html">Media</a></li>
+             <li><a href="/csr.html">CSR</a></li>
+             <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+             <li><a href="/cancellation-policy.html">Cancellation Policy</a></li>
+             <li><a href="/disclaimer.html">Disclaimer</a></li>
+             <li><a href="/rera-disclaimer.html">RERA Disclaimer</a></li>
+             <li><a href="/contact-us.html">Contact us</a></li>
+             <li><a href="/careers.html">Careers</a></li>
+          </ul>
+				</div>
+				<div class="col-sm-8 col-lg-4 mb-4 mb-lg-0 text-left">
+					<h3 class="footer__title">Newsletter</h3>
+					<p>You can trust us. we only send promo offers,</p>
+					<form action="" class="form-subscribe">
+						<div class="input-group">
+							<input type="email" class="form-control" placeholder="Your email address" required>
+							<div class="input-group-append">
+								<button class="btn-append" type="submit"><i class="lnr lnr-arrow-right"></i></button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="d-sm-flex justify-content-between footer__bottom top-border">
+				<p>Copyright © 2019 True Value Homes All rights reserved</p>
+				<ul class="social-icons mt-2 mt-sm-0">
+					<li><a href="https://www.facebook.com/TVHIndia"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="https://www.twitter.com/TVHIndia"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="https://www.linkedin.com/company/true-value-homes" class="single_social_icon"><i class="ti-linkedin"></i></a></li>
 
-<script>
-$(document).ready(function(){
-  // Initialize Tooltip
-  $('[data-toggle="tooltip"]').tooltip(); 
-  
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-})
-</script>
-
+					<li><a href="https://plus.google.com/108601123437267711356/posts" class="single_social_icon"><i class="ti-google"></i></a></li>
+					<li><a href="https://www.flickr.com/photos/tvhindia/albums"><i class="ti-flickr-alt"></i></a></li>		
+				</ul>
+			</div>
+		</div>	
+	</footer>
+	<!-- footer section ends -->
+	<!-- script files -->
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>	
+	<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+	<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/custom.js"></script>
 <script src="http://cwc.livserv.in/chat.js?lid=16321" id="lp_cwc_xqzyihjdskw" ></script>
 <script src="http://cw1.livserv.in?did=16321&amp;pid=1"></script>
+
+<script>
+		var testimonialCarousel = $('.testimonialCarousel');
+      testimonialCarousel.owlCarousel({
+      loop:true,
+      margin:80,
+      startPosition: 2,
+      nav: false,
+      responsiveClass:true,
+      responsive:{
+        0:{
+            items:1
+        },
+        1000:{
+            items:2,
+            loop:true
+        }
+      }
+    });
+
+    var heroCarousel = $('.heroCarousel');
+      heroCarousel.owlCarousel({
+      loop:true,
+      margin:10,
+      nav: false,
+      startPosition: 3,
+      responsiveClass:true,
+      autoplay:true,
+			autoplayTimeout:5000,
+			autoplayHoverPause:false,
+      responsive:{
+        0:{
+            items:1
+        }
+      }
+	});
+
+	var dropToggle = $('.menu_right > li').has('ul').children('a');
+	dropToggle.on('click', function() {
+		dropToggle.not(this).closest('li').find('ul').slideUp(200);
+		$(this).closest('li').children('ul').slideToggle(200);
+		return false;
+	});
+
+	$( ".toggle_icon" ).on('click', function() {
+		$( 'body' ).toggleClass( "open" );
+	});
+
+
+	// custom sidebar code
+	$(".list li a").click(function(){
+		$(this).siblings(".sub-list").slideToggle();
+	});
+	</script>
+	<!-- banner only for index -->
+	<!-- <script type="text/javascript">
+		var current_url = location.pathname
+		if (current_url == "/" || current_url == "/index.html") {
+			$(".heroCarousel").show();
+		}else{
+			$(".heroCarousel").hide();
+		}
+	</script> -->
 </body>
 </html>
