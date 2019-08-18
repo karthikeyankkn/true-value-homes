@@ -93,7 +93,7 @@ var google_remarketing_only = true;
     bottom: 0em;
     margin-bottom: 10px;
 }
-.tab-content {
+/*.tab-content {
     padding: 30px;
 }
 .nav-tabs {
@@ -122,10 +122,58 @@ var google_remarketing_only = true;
 .nav-tabs > li.active > a, .nav-tabs > li > a:hover{
     border: none;
     color: #FFF !important;
+}*/
+.tab {
+    overflow: hidden;
+    background-color: #950e74 !important;
+}
+.tabcontent {
+    display: none;
+    padding: 30px 12px !important;
+    border-top: none;
+}
+.tab button.active {
+    background-color: #970e76 !important;
+    color: #fff;
 }
 .thumbnail p{
 	margin: 5px;
 	color: #fff;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
 </style>
 <body>
@@ -281,30 +329,62 @@ var google_remarketing_only = true;
                                     <img src="http://www.tvh.in/apartments/luxury-3bhk-4bhk/adyar-chennai/images/quadrant-logo.png" alt="tvh-quadrant">
 									<h4 class="lifehead">LIFESTYLE</h4>
 									<div class="card">
-                                    <ul class="nav nav-tabs text-center" role="tablist">
-                                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">5 Star lobby</a></li>
-                                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">CLUB</a></li>
-                                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">ROOFTOP</a></li>
-                                        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Smart living</a></li>
-										<li role="presentation"><a href="#security" aria-controls="settings" role="tab" data-toggle="tab">Security</a></li>
-									</ul>
+                                    <div class="tab">
+																			  <button class="tablinks" onclick="openCity(event, '5star')" id="defaultOpen">5 STAR LOBBY</button>
+																			  <button class="tablinks" onclick="openCity(event, 'club')">CLUB</button>
+																			  <button class="tablinks" onclick="openCity(event, 'rooftop')">ROOF TOP</button>
+																			  <button class="tablinks" onclick="openCity(event, 'smart')">SMART LIVING</button>
+																			  <button class="tablinks" onclick="openCity(event, 'security')">SECURITY</button>
+																		</div>
+
+																				<div id="5star" class="tabcontent active">
+																					  <ul>
+																					  	<li>Grand & Luxuries lobby with reception and Concierge desk.</li>
+																					  	<li>24/7 Resident Manager.</li>
+																					  	<li>Cafe.</li>
+																					  </ul>
+																					</div>
+
+																					<div id="club" class="tabcontent">
+																					  <ul>
+																					  	<li>At Quadrant, Residents and Visitors can experience the benefits of a fully Integrated 3 Level Clubhouse.</li>
+																					  	<li>Private Indoor Swimming Pool on the Ground floor.</li>
+																					  	<li>Luxury Spa and Saloon on the First floor.</li>
+																					  	<li>A Fully Equipped Gymnasium.Second floor</li>
+																					  </ul>
+																					</div>
+
+																					<div id="rooftop" class="tabcontent">
+																					  <ul>
+																					  	<li>Aim for the sky, we’re told,</li>
+																							<li>and there is good reason to it too. Up there, is calm.</li>
+																							<li>There is exclusivity, and of course, there’s the breathtaking view. </li>
+																					  </ul>
+																					</div>
+																					<div id="smart" class="tabcontent">
+																					  <ul>
+																					  	<li>Quadrant Homes are fully integrated with FIBARO Home Intelligence systems, that give you the ability to control your</br> apartment from an iPad and more… </li>
+																					  </ul>
+																					</div>
+																					<div id="security" class="tabcontent">
+																					  <ul>
+																					  	<li>CCTV - Security</li>
+
+																					  	 <li>Visitor Management</li>
+
+																					  	<li>Vehicle Entry record-keeping incorporating Automatic Number Plate Recognition system (ANPR) </li>
+																					  </ul>
+																					</div>
+
+
 
                                     <!-- Tab panes -->
-                                    <div class="tab-content">
-                                        <div role="tabpanel" class="tab-pane active" id="home">Grand & Luxuries lobby with reception and Concierge desk.</br>
-										24/7 Resident Manager.</br>
-										Cafe.
-										</div>
-                                        <div role="tabpanel" class="tab-pane" id="profile">At Quadrant, Residents and Visitors can experience the benefits of a fully Integrated 3 Level Clubhouse.</br>
-										Private Indoor Swimming Pool on the Ground floor.</br>
-										Luxury Spa and Saloon on the First floor.</br>
-										A Fully Equipped Gymnasium.Second floor</div>
-                                        <div role="tabpanel" class="tab-pane" id="messages">Aim for the sky, we’re told,</br>
-										and there is good reason to it too. Up there, is calm.</br>
-										There is exclusivity, and of course, there’s the breathtaking view. </div>
-                                        <div role="tabpanel" class="tab-pane" id="settings">Quadrant Homes are fully integrated with FIBARO Home Intelligence systems, that give you the ability to control your</br> apartment from an iPad and more… </div>
-										<div role="tabpanel" class="tab-pane" id="security">CCTV - Security, Visitor Management, Vehicle Entry record-keeping incorporating Automatic Number Plate Recognition system (ANPR) </div>
-									</div>
+                                   
+                                        
+                                        
+                                        
+
+										
 									</div>
                                 </div>
 								
@@ -629,6 +709,24 @@ You're pampered with world-class amenities including 3 swimming pools, a gym and
 		$(this).siblings(".sub-list").slideToggle();
 	});
 	</script>
+	<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
 	<!-- banner only for index -->
 	<!-- <script type="text/javascript">
 		var current_url = location.pathname
