@@ -60,6 +60,11 @@ var google_remarketing_only = true;
   
 </head>
 <style type="text/css">
+	.container-fluid {
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-top: -20px;
+}
 	.lifehead {
     font-size: 2.4em;
     color: #970e76;
@@ -117,6 +122,10 @@ var google_remarketing_only = true;
 .nav-tabs > li.active > a, .nav-tabs > li > a:hover{
     border: none;
     color: #FFF !important;
+}
+.thumbnail p{
+	margin: 5px;
+	color: #fff;
 }
 </style>
 <body>
@@ -201,7 +210,7 @@ var google_remarketing_only = true;
 		        <img src="img/custom/tvh_fav_icon_logo.png" alt="tvh-logo" class="tvh-logo">
 		      </a>
 		      
-		      <div class="owl-carousel owl-theme heroCarousel">
+		      <<!-- div class="owl-carousel owl-theme heroCarousel">
 		        
 		        <div class="item">
 		          <div class="hero__slide">
@@ -214,19 +223,55 @@ var google_remarketing_only = true;
 									<span class="hero__slideContent--right"></span>
 		            </div>
 
-		            <!-- mobile view code -->
+		            
 		            <div class="hero__slideContent_mobile">
 		            	<h1>Quadrant</h1>
 		            </div>
 		          </div>
-		        </div>
+		        </div> -->
 		        
 		        
 		      </div>
 		    </div>
 		  </header>
 	</nav>
+	
 	<!-- header section ends -->
+	<div class="container-fluid">
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol> -->
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="http://www.tvh.in/img/custom/TVH_Quad.jpg" alt="TVH_Quadrant" style="width:100%;">
+        <div class="carousel-caption">
+          <h3 style="color: #8e0d6f;">TVH Quadrant</h3>
+          <p style="text-align: center;color: #8e0d6f;">Most Luxurious 3 & 4 Bed homes Ready to move at LB road Adyar</p>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+	</div>
 
 	<div class="container" id="lifestyle">
 	<div class="row">
@@ -287,13 +332,23 @@ You're pampered with world-class amenities including 3 swimming pools, a gym and
 								
 								<div class="about-info-grids-res">
 									<div class="row">
-										<div class="col-md-4 col-sm-4 about-info about-info1">
+										<div class="col-md-4 col-sm-4 about-info about-info3">
+										<img src="http://www.tvh.in/apartments/luxury-3bhk-4bhk/adyar-chennai/images/penthouse.jpg"/ width="100%">
+										<h4 class="resin">Penthouse</h4>
+										<div class="h4-underline"></div>
+										<p>For those who seek the finest in living, Rare and coveted residences from the luxury collection: by invitation only.</br></br></p>
+										<br>
+										<button type="button" class="btn btn-default">ON REQUEST</button>
+										 
+									</div>
+									<div class="col-md-4 col-sm-4 about-info about-info1">
 									<img src="http://www.tvh.in/apartments/luxury-3bhk-4bhk/adyar-chennai/images/3bed.jpg"/ width="100%">
 										<h4 class="resin">3 Bed Residence</h4>
 										<div class="h4-underline"></div>
 										<p>Fully airconditioned homes with 13 ft. high ceilings. And with floor-to-ceiling glass for every room, get a 360' view to the Bay of Bengal and Adyar estuary</br></br></p>
 										<br>
-										<p class="w3agile"><span class="sqft">2235 - 3260 SQFT</span></p>
+										<button type="button" class="btn btn-default">2235 - 3260 SQFT</button>
+										
 									</div>
 									<div class="col-md-4 col-sm-4 about-info about-info2">
 										<img src="http://www.tvh.in/apartments/luxury-3bhk-4bhk/adyar-chennai/images/4bed.jpg"/ width="100%">
@@ -301,16 +356,10 @@ You're pampered with world-class amenities including 3 swimming pools, a gym and
 										<div class="h4-underline"></div>
 										<p>he grand foyer lays it all out in style – bestowing you with comforts no other home on Adyar could hope to offer.A luxurious private deck, to retreat to whenever you fancy. A yoga deck, to alleviate the stress of your high-powered life.</br></br></p>
 										<br>
-										<p class="w3agile"><span class="sqft">3595 - 3615 SQFT</span></p>
+										<button type="button" class="btn btn-default">3595 - 3615 SQFT</button>
+										
 									</div>
-									<div class="col-md-4 col-sm-4 about-info about-info3">
-										<img src="http://www.tvh.in/apartments/luxury-3bhk-4bhk/adyar-chennai/images/penthouse.jpg"/ width="100%">
-										<h4 class="resin">Penthouse</h4>
-										<div class="h4-underline"></div>
-										<p>For those who seek the finest in living, Rare and coveted residences from the luxury collection: by invitation only.</br></br></p>
-										<br>
-										 <p class="w3agile"><span class="sqft">ON REQUEST</span></p>
-									</div>
+									
 									</div>
 								</div>
 								</div>
